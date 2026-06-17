@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Previa de APIs - reCAPTCHA Automático</title>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Verificación de Seguridad</h2>
+        <p>Marca la casilla para continuar a las APIs.</p>
+
+        <div class="captcha-box">
+            <div class="g-recaptcha" 
+                 data-sitekey="6LcdrSMtAAAAALwKgyNu1jBYobh7XH1ucWb71LRG" 
+                 data-callback="alVerificar">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
